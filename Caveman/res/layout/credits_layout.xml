@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+      <ImageView 
+        android:id="@+id/mainMenuBackground"
+        android:src="@drawable/menuback"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+	  <ViewFlipper android:id="@+id/flipper"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+    	android:flipInterval="2000"
+    	android:layout_marginBottom="20dip" >
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="26sp"
+                    android:text="@string/credits_1"/>
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="26sp"
+                    android:text="@string/credits_2"/>
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="26sp"
+                    android:text="@string/credits_3"/>
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="26sp"
+                    android:text="@string/credits_4"/>
+</ViewFlipper>
+            
+       <ImageView 
+        android:id="@+id/credits"
+        android:src="@drawable/credits_unchecked"
+        android:adjustViewBounds="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

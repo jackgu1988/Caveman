@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<RelativeLayout android:layout_height="fill_parent"
+		android:id="@+id/relativeLayout1" android:layout_width="fill_parent"
+		android:background="@drawable/bg">
+		<ImageButton android:background="@layout/lvl_button1"
+			android:id="@+id/imageButton1" android:layout_alignParentTop="true"
+			android:layout_width="50dip" android:layout_height="50dip"></ImageButton>
+		<ImageButton android:background="@layout/lvl_button2"
+			android:id="@+id/imageButton2" android:layout_toRightOf="@+id/imageButton1"
+			android:layout_alignTop="@+id/imageButton1"
+			android:layout_alignBottom="@+id/imageButton1" android:layout_width="50dip" android:layout_height="50dip"></ImageButton>
+		<ImageButton android:background="@layout/lvl_button3"
+			android:id="@+id/imageButton3" android:layout_toRightOf="@+id/imageButton2"
+			android:layout_alignTop="@+id/imageButton2"
+			android:layout_alignBottom="@+id/imageButton2" android:layout_width="50dip" android:layout_height="50dip"></ImageButton>
+		<ImageButton android:background="@layout/lvl_button4"
+			android:id="@+id/imageButton4" android:layout_toRightOf="@+id/imageButton3"
+			android:layout_alignTop="@+id/imageButton3"
+			android:layout_alignBottom="@+id/imageButton3" android:layout_width="50dip" android:layout_height="50dip"></ImageButton>
+		<ImageButton android:background="@layout/lvl_button5"
+			android:id="@+id/imageButton5" android:layout_toRightOf="@+id/imageButton4"
+			android:layout_alignTop="@+id/imageButton4"
+			android:layout_alignBottom="@+id/imageButton4" android:layout_width="50dip" android:layout_height="50dip"></ImageButton>
+		<ImageButton android:background="@layout/lvl_button6"
+			android:id="@+id/imageButton6" android:layout_toRightOf="@+id/imageButton5"
+			android:layout_alignTop="@+id/imageButton5"
+			android:layout_alignBottom="@+id/imageButton5" android:layout_width="50dip" android:layout_height="50dip"></ImageButton>
+	</RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level>
+	<enemy type="SimpleEnemy" time="1" position="2" />
+	<enemy type="JumpingEnemy" time="1" position="3" />
+	<enemy type="SimpleEnemy" time="1" position="4" />
+	<enemy type="SimpleEnemy" time="2" position="2" />
+	<enemy type="SimpleEnemy" time="2" position="4" />
+	<enemy type="SimpleEnemy" time="3" position="4" />
+	<enemy type="SimpleEnemy" time="4" position="2" />
+	<enemy type="SimpleEnemy" time="4" position="4" />
+	<enemy type="SimpleEnemy" time="5" position="4" />
+</level>

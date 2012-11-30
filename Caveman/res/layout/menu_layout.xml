@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+      <ImageView 
+        android:id="@+id/mainMenuBackground"
+        android:src="@drawable/menuback"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+      <Button
+        android:id="@+id/Game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@layout/gamebutton_layout"
+        android:soundEffectsEnabled="false" />
+
+      <Button
+        android:id="@+id/Options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/Game"
+        android:layout_marginTop="10dip"
+        android:background="@layout/optionsbutton_layout"
+        android:soundEffectsEnabled="false" />
+
+      <Button
+        android:id="@+id/Highscores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/Options"
+        android:layout_marginTop="10dip"
+        android:background="@layout/highbutton_layout"
+        android:soundEffectsEnabled="false" />
+
+      <Button
+        android:id="@+id/Help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/Highscores"
+        android:layout_marginTop="10dip"
+        android:background="@layout/helpbutton_layout"
+        android:soundEffectsEnabled="false" />
+
+      <Button
+        android:id="@+id/Credits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/Help"
+        android:layout_marginTop="10dip"
+        android:background="@layout/creditsbutton_layout"
+        android:soundEffectsEnabled="false" />
+
+</RelativeLayout>

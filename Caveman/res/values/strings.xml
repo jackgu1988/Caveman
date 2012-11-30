@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Caveman!</string>
+    <string name="app_name">Caveman</string>
+    <string name="splash_screen">SplashScreen</string>
+    <string name="highscores">highscores</string>
+    <string name="credits_1">Game design by Iakovos Gurulian</string>
+    <string name="credits_2">Graphics design by Iakovos Gurulian</string>
+    <string name="credits_3">Music and sound effects by Iakovos Gurulian</string>
+    <string name="credits_4">Testers:</string>
+    <string name="options">options</string>
+    <string name="help">This will become the help screen of the game. Blah blah for now just to test whether it is working properly :)</string>
+</resources>
